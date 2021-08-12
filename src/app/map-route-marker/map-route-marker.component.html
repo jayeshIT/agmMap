@@ -1,0 +1,7 @@
+<agm-map [latitude]="origion.lat" [longitude]="origion.lng" style="height: 500px" [zoomControl]="true" [disableDefaultUI]="true" [disableDoubleClickZoom]="true" [streetViewControl]="true">
+    
+     <agm-direction [waypoints]="waypoints" [origin]="origion" [destination]="destination" [optimizeWaypoints]="true" [travelMode]="'DRIVING'"></agm-direction>
+
+  
+
+</agm-map>

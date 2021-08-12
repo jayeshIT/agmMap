@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "agmMap"
+    }
+  },
+  "defaultProject": "agmMap",
+  "cli": {
+    "analytics": false
+  }
 }
